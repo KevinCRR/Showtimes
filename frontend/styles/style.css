@@ -1,0 +1,88 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#header {
+  padding: 2rem 1.5rem;
+  margin-left: 0%;
+  margin-top: 0%;
+  width: 100%;
+  background-color: rgb(243, 68, 156);
+}
+
+#header h1,
+p {
+  color: white;
+  line-height: 1px;
+  font-family: "georgia", "times new roman", serif;
+  font-weight: 500;
+}
+
+#content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+}
+
+#content-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#content-right {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#search-form {
+  margin-left: 1rem;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+#time-display {
+}
+
+input[type="submit"] {
+  background-color: rgb(243, 68, 156);
+  border: none;
+  color: white;
+  padding: 14px 20px;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(162, 15, 88);
+}
+
+label {
+  font-weight: bold;
+}
+
+input[type="date"],
+select {
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  right: auto;
+  padding: 13px 55px 15px 10px;
+  direction: ltr;
+}
+
+input[type="date"] {
+  padding: 13px 70px 15px 10px;
+}
